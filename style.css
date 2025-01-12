@@ -107,8 +107,7 @@ nav {
 
 /* Home */
 #app {
-  position: relative;
-  height: 100vh;
+  height: 80vh;
 }
 
 .hero {
@@ -144,13 +143,13 @@ nav {
 .homeCity {
   font-size: 40px;
   font-weight: 500;
-  z-index: 1;
+  z-index: 2;
 }
 
 .homePar {
   font-size: 30px;
   font-weight: 400;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Animation-Home */
