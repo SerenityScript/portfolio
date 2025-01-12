@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontaktt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="navLink">Home</a>
+      <a href="about.html" class="navLink">Über mich</a>
+      <a href="projects.html" class="navLink">Projekte</a>
+      <a href="contact.html"  class="navLink">Kontakt</a>
+      <label class="label">
+        <div class="toggle">
+          <input id="theme-toggle" class="toggle-state" type="checkbox" name="check" value="check">
+        <div class="indicator"></div>
+      </div>
+    </label>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <div class="contactForm">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkgdker" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Vor- und Nachname" required="">
+            <label for="email-address">Email Adresse</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="message" >Nachricht</label>
+            <textarea rows="5" name="message" id="message" placeholder="Schreiben Sie mir eine Nachricht" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Senden">
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-links">
+      <ul class="social-links">
+        <li class="social-item">
+          <a href="https://github.com/SerenityScript" target="_blank" rel="noopener noreferrer" class="social-link github-link">
+            <img class="social-icon" src="assets/social-github.png" alt="github logo">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link linkedin-link">
+            <img class="social-icon" src="assets/social-linkedin.png" alt="linkedin logo">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/serenity_script/" target="_blank" rel="noopener noreferrer" class="social-link instagram-link">
+            <img class="social-icon" src="assets/social-instagram.png" alt="instagram logo">
+          </a>
+        </li>
+      </ul>
+      <p>© 2025 Yulia Siebrandt. All rights reserved.</p>
+    </div>
+
+    <!--Waves Container-->
+    <div>
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="0"
+            fill="rgba(197,215,206,0.7)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="3"
+            fill="rgba(255,255,255,0.5)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="5"
+            fill="rgba(242,214,203,0.3)"
+          />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(228,188,181, 0.3)" />
+        </g>
+      </svg>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
