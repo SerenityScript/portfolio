@@ -9,16 +9,23 @@
 <body>
   <header>
     <nav>
-      <a href="/" class="navLink">Home</a>
-      <a href="about.html" class="navLink">Über mich</a>
-      <a href="projects.html" class="navLink">Projekte</a>
-      <a href="contact.html"  class="navLink">Kontakt</a>
-      <label class="label">
-        <div class="toggle">
-          <input id="theme-toggle" class="toggle-state" type="checkbox" name="check" value="check">
-        <div class="indicator"></div>
+      <button class="burger-menu" aria-label="Menü umschalten">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <div class="nav-links">
+        <a href="/" class="navLink">Home</a>
+        <a href="about.html" class="navLink">Über mich</a>
+        <a href="projects.html" class="navLink">Projekte</a>
+        <a href="contact.html" class="navLink">Kontakt</a>
+        <label class="label">
+          <div class="toggle">
+            <input id="theme-toggle" class="toggle-state" type="checkbox" name="check" value="check">
+            <div class="indicator"></div>
+          </div>
+        </label>
       </div>
-    </label>
     </nav>
   </header>
 
