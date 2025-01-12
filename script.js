@@ -1,12 +1,3 @@
-const burgerMenu = document.querySelector('.burger-menu');
-const navLinks = document.querySelector('.nav-links');
-
-// Event-Listener
-burgerMenu.addEventListener('click', () => {
-  burgerMenu.classList.toggle('active');
-  navLinks.classList.toggle('active');
-});
-
 import Spheres2Background from 'https://cdn.jsdelivr.net/npm/threejs-components@0.0.8/build/backgrounds/spheres2.cdn.min.js';
 
 // WebGL-Hintergrund
