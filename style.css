@@ -17,7 +17,7 @@ body {
   font-family: "Montserrat", serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -107,7 +107,7 @@ nav {
 
 /* Home */
 #app {
-  height: 80vh;
+  height: 100vh;
 }
 
 .hero {
