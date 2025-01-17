@@ -26,13 +26,8 @@ body.dark-mode {
 }
 
 /* Nav */
-header {
-  z-index: 2;
-}
-
 nav {
   width: 100%;
-  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +58,6 @@ nav {
 }
 
 /* Theme - switch */
-
 .toggle {
   display: flex;
   align-items: center;
@@ -129,7 +123,6 @@ nav {
 
 .homeName {
   position: relative;
-  z-index: 2;
   font-size: 80px;
   font-weight: 600;
 }
@@ -137,30 +130,27 @@ nav {
 .homeHeading {
   font-size: 60px;
   font-weight: 500;
-  z-index: 2;
 }
 
 .homeCity {
   font-size: 40px;
   font-weight: 500;
-  z-index: 2;
 }
 
 .homePar {
   font-size: 30px;
   font-weight: 400;
-  z-index: 2;
 }
 
 /* Animation-Home */
 #webgl-canvas {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   overflow: hidden;
-  z-index: 1;
+  z-index: -1;
 }
 
 /* About */
@@ -173,7 +163,6 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
-  margin-top: 30px;
 }
 
 .about-me-container {
@@ -592,13 +581,13 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 .social-links {
   display: flex;
   gap: 10px;
   list-style: none;
-  z-index: 2;
 }
 
 .social-item {

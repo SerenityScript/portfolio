@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yulia Siebrandt</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <a href="/" class="navLink">Home</a>
-      <a href="about.html" class="navLink">About</a>
-      <a href="projects.html" class="navLink">Projects</a>
-      <a href="contact.html"  class="navLink">Contact</a>
+      <a href="/" class="navLink">Startseite</a>
+      <a href="projects.html" class="navLink">Projekte</a>
+      <a href="contact.html"  class="navLink">Kontakt</a>
       <label class="label">
         <div class="toggle">
           <input id="theme-toggle" class="toggle-state" type="checkbox" name="check" value="check">
@@ -34,6 +37,142 @@
         <canvas id="webgl-canvas"></canvas>
       </div>
     </section>
+
+    <section id="about-me">
+      
+      <div class="about-me-container">
+        <img src="assets/profilbild.png" class="about-me-photo" alt="Profilfoto von Yulia, Webentwicklerin aus Hamburg">
+        <div class="about-me-content">
+          <h2 class="about-me-heading">Hi, ich bin Yulia</h2>
+          <p class="about-me-text">
+            Ich bin Webentwicklerin aus Hamburg mit einem Fokus auf kreative und funktionale digitale Lösungen.
+          </p>
+          <p class="about-me-text">
+            Mit Erfahrung in Frontend- und Backend-Entwicklung (React, JavaScript, Node.js) bringe ich technisches Know-how 
+            und eine kreative Denkweise in jedes Projekt ein.
+          </p>
+          <p class="about-me-text">
+            Mein Ziel ist es, digitale Produkte zu schaffen, die inspirieren und Mehrwert bieten.
+          </p>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service">
+          <h3 class="service-title">Front-End-Entwicklung</h3>
+          <p class="service-description">Sauberes, effizientes und responsives HTML, CSS, JavaScript und React.</p>
+        </div>
+        <div class="service">
+          <h3 class="service-title">Back-End-Entwicklung</h3>
+          <p class="service-description">Stabile und skalierbare Lösungen mit Node.js.</p>
+        </div>   
+        <div class="service">
+          <h3 class="service-title">SEO und Perfomance</h3>
+          <p class="service-description">Optimierung von Webseiten für Suchmaschinen und schnelle Ladezeiten.</p>
+        </div>
+        <div class="service">
+          <h3 class="service-title">Webdesign</h3>
+          <p class="service-description">Ästhetische und funktionale Designs, die Benutzer begeistern.</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="cv">
+        <a href="assets/Resume.pdf" class="cv-link">Lebenslauf runterladen</a>
+    </article>
+    
+    <section id="skills">
+      <div class="containerSkills">
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/html5.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">HTML</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/css.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">CSS</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/bootstrap.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">Bootstrap</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/js.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">JavaScript</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/figma.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">Figma</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/gsap.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">GSAP</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/git.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">Git</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/react.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">React</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/redux.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">Redux</h2>
+          </div>
+        </div>
+        <div class="drop">
+          <div class="content">
+            <img src="./assets/node.png" alt="Skill" class="skillIcon">
+            <h2 class="skillText">Node</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates-swiper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/htmlys.png" class="cerificatePic" alt="html">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/bootstrapys.png" class="cerificatePic" alt="bootstrap">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/js-zertifikat.png" class="cerificatePic" alt="javascript">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/react-redux.png" class="cerificatePic" alt="react redux">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/figmays.jpg" class="cerificatePic" alt="figma">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <article class="cv">
+      <a href="projects.html" class="cv-link">Projekte</a>
+    </article>
+
   </main>
 
   <footer>
@@ -57,9 +196,50 @@
       </ul>
       <p>© 2025 Yulia Siebrandt. All rights reserved.</p>
     </div>
+
+    <!--Waves Container-->
+    <div>
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="0"
+            fill="rgba(197,215,206,0.7)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="3"
+            fill="rgba(255,255,255,0.5)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="5"
+            fill="rgba(242,214,203,0.3)"
+          />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(228,188,181, 0.3)" />
+        </g>
+      </svg>
+    </div>
   </footer>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="script.js"></script>
 </body>
 </html>
