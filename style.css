@@ -34,17 +34,27 @@ nav {
   gap: 15px;
 }
 
-.navLink, .cv-link {
+.navLink {
   background-color: rgba(239, 240, 244, 0.7);
-  border-radius: 50px;
-  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
   color: #4d4d4d;
+  border: 2px solid rgb(206, 206, 206);
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+}
+
+.cv-link {
+  background-color: #629f85;
+  color: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: inset 4px 4px 10px #44745f, inset -4px -4px 10px #a1f5d0;
+}
+
+.navLink, .cv-link {
+  border-radius: 50px;
   cursor: pointer;
   font-size: 18px;
   padding: 10px 40px;
   margin: 10px;
   transition: all 0.2s ease-in-out;
-  border: 2px solid rgb(206, 206, 206);
   text-decoration: none;
 }
 
@@ -327,9 +337,17 @@ nav {
   margin-top: 30px;
 }
 
+.projects-oveview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
 /* Certificates */
 .swiper {
   width: 100%;
+  margin-top: 100px;
   padding-bottom: 30px;
   margin-bottom: 50px;
 }
